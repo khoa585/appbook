@@ -95,7 +95,7 @@ export default function Menu({ navigation }) {
                         </TouchableOpacity>
                     </View>
                 </View>
-                <View style={styles.containerSwiper}>
+                {/* <View style={styles.containerSwiper}>
                     <Swiper autoplay={true} autoplayTimeout={5}
                         style={styles.wrapper}
                         dot={
@@ -143,7 +143,7 @@ export default function Menu({ navigation }) {
                             />
                         </View>
                     </Swiper>
-                </View>
+                </View> */}
                 <Container style={styles.tab}>
                     <Tabs renderTabBar={() => <ScrollableTab />}>
                         <Tab heading="Trending">

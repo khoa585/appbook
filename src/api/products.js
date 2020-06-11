@@ -7,6 +7,12 @@ export const fetchListProduct = (PAGE = PAGE, NUMBERITEM = NUMBERITEM) => {
         numberitem: NUMBERITEM
     })
 }
-export const feachDetail = (id) =>{
+export const feachDetail = (id) => {
     return axios.get(`/story/detial/${id}`)
+}
+export const feachDetailChap = (id, page = PAGE) => {
+    return axios.post("/chapter/getlist",{
+        id: id,
+        page: page
+    })
 }
